@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <i class="ph-fill ph-list" id="menuVisualizationControl"></i>
+    
+    <nav id="lateral" class="hidden">
+        <i class="ph ph-user" id="boutMeButton"></i>
+        <i class="ph ph-code" id="abilities-button"></i>
+        <i class="ph-thin ph-envelope" id="buttonContacts"></i>
+    </nav>
+
+    <div id="backgroundImage" src="images\backgorund_image.png">
+
+        <!-- Apresentação e as imagens do github, linkedin e workana -->
+        <div id="main-info">
+
+            <div class="text-container">
+                <div class="texts">
+                    <h1 class="big_h1">Olá, me chamo Diego Bruno</h1>
+                    <h2>sou um <span class="blue_color_text">desenvolvedor fullstack</span></h2>
+                </div>
+                <div id="imgs">
+                    <img class="git" src="images/github.jpg" alt="Ícone do GitHub">
+                    <img class="linkedin" style="border-radius: 18px;" src="images/linkedin.png" alt="Ícone do LinkedIn">
+                    <img class="workana" src="images/workana.png" alt="Ícone do Workana">
+                </div>
+            </div>
+
+        </div>
+      
+        <!-- Pequeno texto falando sobre mim -->
+        <div class="standard-container medium_height_container">
+            <h1 id="main-title-ability">Sobre mim</h1>
+            <p>
+                Me chamo Diego Bruno, sou um desenvolvedor web full stack. Cursei Informática no IFPI, onde aprofundei meus conhecimentos em linguagens como HTML, CSS e JavaScript, além de frameworks, como o Django, e bancos de dados. Estou em busca da minha primeira oportunidade para aplicar meu amor pela programação e contribuir para diversos projetos.
+            </p>
+        </div>
+
+        <!-- Habilidades a serem destacadas -->
+        <div class="standard-container full_screen_container">
+            <h1 class="change-color" id="main-title-ability">Habilidades</h1>
+
+            <div id="abilities" class="container">
+                <img class="ability" src="images/html5.png" alt="Ícone HTML5">
+                <img class="ability" src="images/css.png" alt="Ícone CSS3">
+                <img class="ability" src="images/js.png" alt="Ícone JavaScript">
+                <img class="ability" src="images/django.png" alt="Ícone Django">
+                <img class="ability" src="images/node.jpg" alt="Ícone Node.js">
+                <img class="ability" src="images/bootstrap.jpg" alt="Ícone Bootstrap">
+            </div>
+
+            <div id="abilities" class="container">
+                <h1 class="ability">HTML5</h1>
+                <h1 class="ability">CSS3</h1>
+                <h1 class="ability">Javascript</h1>
+                <h1 class="ability">Django</h1>
+                <h1 class="ability">Node.js</h1>
+                <h1 class="ability">Bootstrap</h1>
+            </div>
+
+        </div>
+
+        <!-- Maneiras de contato -->
+        <div class="contacts">
+            <h1><strong>Contatos</strong></h1>
+            <div class="inline">
+                <a href="https://api.whatsapp.com/send?phone=5586994314300" target="_blank"><div class="contact"><i class="ph ph-phone" style="display: inline-block;"></i><h2 style="display: inline-block;">(86) 99431-4300</h2></div></a>
+                <a href="mailto:diegobr1802@gmail.com" target="_blank"><div class="contact"><i class="ph ph-envelope" style="display: inline-block;"></i><h2 style="display: inline-block;">diegobr1802@gmail.com</h2></div></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
